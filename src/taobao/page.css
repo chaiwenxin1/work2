@@ -1,0 +1,91 @@
+*{
+    padding:0;
+    margin:0;
+}
+.show .pic{
+    height:375px;
+    position: relative;
+    left:0;
+    top:0;
+    overflow:hidden;
+}
+.show .pic img{
+    
+    height:375px;
+}
+.show .nav-bar{
+   
+    height:34px;
+    position: absolute;
+    top:20px;
+    left:0;
+   
+}
+.show .nav-bar .btn {
+   width:34px;
+   height:34px;
+   border:0;
+   border-radius:100%;
+   text-align:center;
+   background: rgba(0, 0,0, 0.4);
+   color:#fff;
+   margin-left:10px;
+  
+}
+.price{
+    
+    height:60px;
+    line-height:1;   
+}
+.price .main-price{
+    width:92%;
+    height:60px;
+    margin:0 auto;
+    color:red;
+    
+}
+.price .main-price .o-price{
+    display:inline-block;
+    color:#ff5000;
+    font-size:24px;
+    margin-top: 30px;
+}
+.show .bottom-tab{
+    width:100%;
+    height:60px;
+    position:fixed;
+    bottom: 0;
+    display:flex;
+    z-index:110;
+    flex-direction:row;
+    align-items:center;
+    padding-left:10px;
+    background-color: white;
+}
+.show .bottom-tab >div{
+    display:block;
+    float:left; 
+    margin-right:15px;
+}
+.show .bottom-tab >div span{
+    font-size:12px;
+    color:rgb(153,153,153);
+    padding-left:3px;
+}
+.show .bottom-tab .btn-cart{
+    margin-right:5px;
+    width:210px;
+    height:40px;
+
+}
+.show .bottom-tab .btn-cart>span{
+    display:block;
+    float:left;
+    width:100px;
+    height:40px;
+    font-size:14px;
+    font-weight:bold;
+    color:white;
+    text-align:center;
+    line-height:38px;
+}

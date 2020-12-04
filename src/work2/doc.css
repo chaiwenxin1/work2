@@ -1,0 +1,15 @@
+.doc{
+    display: flex;
+}
+.doc .content{
+    flex:1;
+    padding-left: 70px; 
+    font-size:30px;
+    font-weight:bold;
+    margin-top: 30px;
+}
+.doc ol{
+    
+    width: 200px;
+ 
+}
